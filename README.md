@@ -9,3 +9,5 @@ It exposes the following ports:
  - 30001 -> raw input port
  - 30002 -> raw output
  - 30003 -> SBS1 (BaseStation) format output
+ - 30004 -> Beast input port
+ - 30005 -> Beast output port
