@@ -28,6 +28,6 @@ RUN git clone git://github.com/MalcolmRobb/dump1090.git
 WORKDIR /dump1090
 RUN make
 
-EXPOSE 8080 30001 30002 30003
+EXPOSE 8080 30001 30002 30003 30004 30005
 
 ENTRYPOINT ./dump1090 --net
