@@ -30,4 +30,4 @@ RUN make
 
 EXPOSE 8080 30001 30002 30003
 
-ENTRYPOINT ./dump1090 --net
+ENTRYPOINT ./dump1090 --net --quiet
